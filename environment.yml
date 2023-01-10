@@ -3,12 +3,14 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - dask
   - numpy
   - pip
   - gcsfs
   - fsspec
   - intake-esm
   - xarray
+  - xarrayutils
   - zarr
   - pip:
     - xmip
