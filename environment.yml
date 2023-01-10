@@ -11,6 +11,7 @@ dependencies:
   - intake-esm
   - matplotlib
   - xarray
+  - nc-time-axis
   - xarrayutils
   - zarr
   - pip:
