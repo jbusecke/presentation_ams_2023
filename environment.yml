@@ -1,0 +1,15 @@
+name: live_demo
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - gcsfs
+  - fsspec
+  - intake-esm
+  - xarray
+  - zarr
+  - pip:
+    - xmip
+    - xarray-datatree
