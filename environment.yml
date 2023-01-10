@@ -9,6 +9,7 @@ dependencies:
   - gcsfs
   - fsspec
   - intake-esm
+  - matplotlib
   - xarray
   - xarrayutils
   - zarr
