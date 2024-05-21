@@ -4,16 +4,15 @@ channels:
 dependencies:
   - python
   - dask
+  - cf_xarray
   - numpy
-  - pip
   - gcsfs
   - fsspec
   - intake-esm
   - matplotlib
   - xarray
   - nc-time-axis
-  - xarrayutils
+  - xarrayutils>=2.0.1
   - zarr
-  - pip:
-    - xmip
-    - xarray-datatree
+  - xmip
+  - xarray-datatree
